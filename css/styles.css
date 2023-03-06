@@ -5,15 +5,19 @@ body{
 * {
     box-sizing: border-box;
     font-weight: 700;
-
 }
+    section{
+        margin: auto;
+        width: 100%;
+    }
+
 article{
     background-color: gray;
     color:  black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 120%;
     border: 2px solid;
-    height: 250px;
+    height: 310px;
 }
 .menu{
     font-size: 2em;
@@ -38,17 +42,35 @@ p{
 margin: 2.5%;
 }
 @media (min-width: 992px){
+    article{
+        box-sizing: border-box;
+        margin: 3% 1.5%;
+        width: 30%;
+        float: left;
+        }
 
+    .menu-lg{
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    .name-lg{
+        margin-left: 60%;
+        margin-bottom: 2%;
+        width: 40%;
+        padding: 2.5%;
+    }
 }
 @media (min-width: 768px) and (max-width:991px){
     article{
         box-sizing: border-box;
-        margin: 1% 1.5%;
-        width: 47%;
+        margin: 1% 2%;
+        width: 46%;
         float: left;
         }
         article:nth-child(3){
-            width: 97%;
+            width: 96%;
+            margin: 2%;
+            clear: both;
         }
 
     .menu-md{
