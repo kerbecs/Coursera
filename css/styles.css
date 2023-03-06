@@ -4,27 +4,82 @@ body{
 
 * {
     box-sizing: border-box;
+    font-weight: 700;
+
 }
 article{
     background-color: gray;
     color:  black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 120%;
+    border: 2px solid;
+    height: 250px;
 }
 .menu{
     font-size: 2em;
     font-weight: 700;
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 5%;
-}
 
+}
+.name{
+    font-size: 1.02em;
+    text-align: center;
+    border: 2px solid;
+}
+.chicken{
+background-color: pink;
+}
+.beef{
+background-color: red;
+}
+.sushi{
+background-color: yellow;}
+p{
+margin: 2.5%;
+}
 @media (min-width: 992px){
 
 }
 @media (min-width: 768px) and (max-width:991px){
+    article{
+        box-sizing: border-box;
+        margin: 1% 1.5%;
+        width: 47%;
+        float: left;
+        }
+        article:nth-child(3){
+            width: 97%;
+        }
 
+    .menu-md{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .name-md{
+        margin-left: 60%;
+        margin-bottom: 2%;
+        width: 40%;
+        padding: 2.5%;
+    }
+    .name-md-small{
+        width: 20%;
+        margin-left: 80%; 
+        margin-bottom: 1%;
+        padding: 1.25%;
+    }
 }
 @media(max-width: 767px){
-
+    article{
+        margin: 4% 10%;
+    }
+    .menu-sm{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .name-sm{
+        margin-left: 60%;
+        margin-bottom: 2%;
+        width: 40%;
+        padding: 2.5%;
+    }
 }
