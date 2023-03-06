@@ -1,5 +1,23 @@
+body{
+    margin: auto;
+}
 
-
+* {
+    box-sizing: border-box;
+}
+article{
+    background-color: gray;
+    color:  black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+}
+.menu{
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
 
 @media (min-width: 992px){
 
